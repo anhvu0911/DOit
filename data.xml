@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<doit>
+	<tags>
+		<tag>
+			<name>Book</name>
+			<image>http://cache.gawker.com/assets/images/gizmodo/2010/04/astrid_icon.jpg</image>
+			<description>a list of book to read</description>
+		</tag>
+		<tag>
+			<name>Game</name>
+			<image></image>
+			<description>a list of game to play</description>
+		</tag>
+		<tag>
+			<name>MUST DO</name>
+			<image></image>
+			<description>Gotta Finish this</description>
+		</tag>
+	</tags>
+	
+	<task>
+		<name>Go Rin no Sho</name>
+		<description>http://en.wikipedia.org/wiki/The_Book_of_Five_Rings</description>
+		<type>Read</type>
+		<completed>0</completed>
+		<due-date>December 01, 2013 13:30</due-date>
+		<complete-date />
+		<sub-task>
+			<name>Chi no maki</name>
+			<description>http://en.wikipedia.org/wiki/The_Book_of_Five_Rings</description>
+			<type>Read</type>
+			<completed>1</completed>
+			<due-date>November 20, 2013 13:30</due-date>
+			<complete-date>December 08, 2013 08:30</complete-date>
+		</sub-task>
+		<sub-task>
+			<name>Sui no maki</name>
+			<description>http://en.wikipedia.org/wiki/The_Book_of_Five_Rings</description>
+			<type>Read</type>
+			<completed>0</completed>
+			<due-date>December 25, 2014 13:30</due-date>
+			<complete-date />
+		</sub-task>
+		<tag>Book</tag>
+	</task>
+	
+	<task>
+		<name>Castlevania: Lords of Shadow</name>
+		<description>http://en.wikipedia.org/wiki/Castlevania:_Lords_of_Shadow</description>
+		<type>Play</type>
+		<completed>0</completed>
+		<due-date>December 10, 2013 13:30</due-date>
+		<complete-date />
+		<tag>Game</tag>
+		<tag>MUST DO</tag>
+	</task>
+	
+	<task>
+		<name>Zelda: Twilight Princess</name>
+		<description>http://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Twilight_Princess</description>
+		<type>Play</type>
+		<completed>1</completed>
+		<due-date>October 08, 2013 19:30</due-date>
+		<complete-date>December 08, 2013 08:30</complete-date>
+		<tag>Game</tag>
+	</task>
+	
+	<task>
+		<name>Think of the future</name>
+		<description>Your future is important</description>
+		<type>Misc</type>
+		<completed>0</completed>
+		<due-date />
+		<complete-date />
+		<tag>MUST DO</tag>
+	</task>
+</doit>
